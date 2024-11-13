@@ -10,7 +10,6 @@ const mockusers = [
     { id: 7, username: 'emily_watson', email: 'emily.w@example.com' },
     { id: 8, username: 'frankie', email: 'frankie@example.com' },
     { id: 9, username: 'grace2023', email: 'grace2023@example.com' },
-    { id: 10, username: 'harrypotter', email: 'harry.p@example.com' }
 ];
 
 // Middleware to log requests
