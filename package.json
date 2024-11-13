@@ -1,0 +1,24 @@
+{
+  "name": "nodepr1",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.mjs",
+    "start": "node ./src/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "espress": "^0.0.0",
+    "express": "^4.21.1",
+    "nodepr1": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "wrangler": "^3.86.1"
+  },
+  "type": "module"
+}

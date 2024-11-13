@@ -1,0 +1,4 @@
+name = "nodepr1"
+main = "src/index.mjs"
+compatibility_date = "2024-11-13"
+compatibility_flags = ["nodejs_compat"]
