@@ -1,5 +1,5 @@
 // src/index.mjs
-
+import { query } from "express-validator";
 const mockusers = [
     { id: 1, username: 'johndoe', email: 'johndoe@example.com' },
     { id: 2, username: 'janedoe', email: 'janedoe@example.com' },
