@@ -59,6 +59,7 @@ export default {
         }
 
         // Create User (POST /api/users)
+        //test
         if (pathname === '/api/users' && req.method === 'POST') {
             const body = await req.json();
             const newUser = { id: mockusers[mockusers.length - 1].id + 1, ...body };
