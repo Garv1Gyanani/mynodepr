@@ -52,14 +52,13 @@ export default {
             const value = searchParams.get('value');
 
             if (!filter && !value) {
-                return new Response(JSON.stringify(mockusers), { status: 200 });
+                return new Response (mockusers, { status: 200 });
             }
             const filteredUsers = mockusers.filter(user => user[filter]?.includes(value));
             return new Response(JSON.stringify(filteredUsers), { status: 200 });
         }
 
         // Create User (POST /api/users)
-        //test
         if (pathname === '/api/users' && req.method === 'POST') {
             const body = await req.json();
             const newUser = { id: mockusers[mockusers.length - 1].id + 1, ...body };
